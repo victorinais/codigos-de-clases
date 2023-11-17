@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Document</title>
+  <style>
+       .theme-dark .cuadro{
+          width: 200px;
+          height: 200px;
+          background-color: #333;
+
+       }
+       .theme-light .cuadro{
+          width: 200px;
+          height: 200px;
+          background-color: cadetblue;
+       }
+  </style>
+</head>
+<body id="body" class="theme-light">
+   <div class="cuadro">
+       
+   </div>
+  <select name="" id="select_idioma" onchange="testSelect()">
+    <option value="" disabled selected>Seleccionar Idioma</option>
+    <option value="en">Ingles</option>
+    <option value="es">Español</option>
+  </select>
+
+  <p id="saludo">
+    Hola mundo
+  </p>
+
+<hr>
+<select name="" id="select_theme" onchange="actualizarTheme()">
+     <option value="" disabled selected>Seleccionar Theme</option>
+     <option value="light">Claro</option>
+     <option value="dark">Obscuro</option>
+</select>
+
+
+  <script src="./scripts.js"></script>
+</body>
+</html>
