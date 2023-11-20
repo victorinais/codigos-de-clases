@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+body {
+    padding-bottom: 3em;
+}
+
+.capturar {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    
+}
+.capturar input, button{
+    font-size: 1.5rem;
+    padding: 0.2em;
+}
+.capturar-2 {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    
+}
+.capturar-2 input, button{
+    font-size: 1.5rem;
+  
+}
+.cont-cuadro {
+    display: flex;
+    justify-content: center;
+}
+.cuadro {
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    margin-left: 2em;
+}
+.capturar-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    
+}
+.capturar-3 img {
+    width: 50%;
+    padding: 1em 0 1em 0;
+    object-fit: cover;
+}
+.capturar-3 button {
+    width: 50%;
+    padding: 0.5em;
+    text-transform: uppercase;
+}
+.display-none {
+    display: none;
+}

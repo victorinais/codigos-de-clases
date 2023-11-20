@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- Primera forma de ocultar y mostrar contenido con js -->
+
+    <div class="capturar">
+        <input type="text" id="input">
+        <button onclick="capturarInfo()">enviar</button>
+    </div>
+    <div class="capturar-2">
+        <input type="color" id="color">
+        <button onclick="capturarColor()">cambiar color</button>
+    </div>
+    <div class="cont-cuadro">
+        <div class="cuadro" id="cuadro"></div>
+    </div>
+
+
+    <div class="capturar-3">
+        <img src="" alt="" id="imagen">
+        <button onclick="mostrarPaisaje()">mostrar paisaje</button>
+        <button onclick="mostrarCarros()">mostrar carros</button>
+        <button onclick="mostrarCiudad()">mostrar ciudad</button>
+    </div>
+
+
+    <!-- Segunda forma de mostrar y ocultar contenido en js -->
+
+    <div class="capturar-3">
+        <img id="ciudad" class="capturar-3"
+            src="https://cdn.pixabay.com/photo/2017/03/29/15/18/tianjin-2185510_960_720.jpg" alt="ciudad">
+        <img id="paisaje" class="capturar-3"
+            src="https://cdn.pixabay.com/photo/2016/08/11/23/48/mountains-1587287_960_720.jpg" alt="paisaje">
+        <button onclick="cambiarAPaisaje()">cambiar a paisaje</button>
+        <button onclick="cambiarACiudad()">cambiar a ciudad</button>
+    </div>
+
+    <!-- Tercera forma de mostrar y ocultar contenido en js -->
+
+    <div class="capturar-3">
+        <img id="arbol" src="./paisaje-1.jpg" alt="arbol" class="display-none">
+        <img id="auto" src="./imagen-2.jpg" alt="automovil">
+        <button onclick="cambiarAArbol()">cambiar a arbol</button>
+        <button onclick="cambiarAAuto()">cambiar a auto</button>
+    </div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
