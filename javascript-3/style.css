@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.container label {
+    width: 50%;
+}
+.button {
+    padding: 1.5em;
+}
+.cont-op {
+    display: flex;
+
+}
+#resultado {
+    padding-top: 1em;
+    padding-left: 0.5em;
+
+}
