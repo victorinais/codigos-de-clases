@@ -20,7 +20,7 @@ nav {
 .opciones ol li {
     font-size: 1.5rem;
     text-transform: capitalize;
-    padding-left: 1em;
+    padding-left: 1.5em;
 }
 .seleccionar {
     display: flex;
@@ -31,4 +31,32 @@ nav {
     margin: 0.5em;
     padding: 0.5em; 
     text-transform: capitalize;
+}
+.cont-titulo-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.menu {
+    text-align: start;
+    margin-left: 8em;
+    padding: 2em;
+    text-transform: capitalize;
+}
+.filtrar {
+    text-align: end;
+    margin-right: 15em;
+    padding-top: 3.5em;
+    text-transform: capitalize;
+    font-size: 0.7rem;
+}
+.cont-productos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+.cajas {
+    background: #fff;
+    padding: 1.5em;
 }
