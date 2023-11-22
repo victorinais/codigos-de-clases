@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/app.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
 </head>
 <body>
@@ -16,7 +16,7 @@
                     <div class="card-body">
                     
                             <div class="form-group mt-3">
-                                 <label for="">Operacion</label>
+                                 <label for="">Operación</label>
                                  <select name="" id="operacion" class="form-select">
                                     <option value="" selected disabled>Seleccionar...</option>
                                     <option value="suma">Suma</option>
@@ -27,11 +27,13 @@
                             </div>
                             <div class="form-group mt-3">
                                 <label for="">Numero 1</label>
-                                <input type="text" class="form-control" id="numero-1">
+                                <input type="text" class="form-control is-invalid" id="numero-1">
+                                <span class="is-invalid"><i>Te hace falta llenar este campo</i></span>
                             </div>
                             <div class="form-group mt-3">
                                 <label for="">Numero 2</label>
-                                <input type="text" class="form-control" id="numero-2">
+                                <input type="text" class="form-control is-invalid" id="numero-2">
+                                <span class="is-invalid"><i>Te hace falta llenar este campo</i></span>
                             </div>
                             <button type="button" onclick="operaciones()" class="btn btn-primary mt-3 w-100">Operar</button>
 
