@@ -165,3 +165,88 @@ var numb = 9;
 var suma = numa + numb;
 
 console.log(suma.toString(suma));
+
+/* ejercicio 42 */
+var num = Math.random();
+var resultado = Math.exp(num);
+console.log(resultado);
+
+/* ejercicio 43 */
+var num = 10;
+var raizCuadrada = Math.sqrt(num);
+var clz32 = Math.clz32(num);
+console.log(raizCuadrada, clz32);
+
+/* ejercicio 44 */
+var x = 10;
+var y = x;
+console.log(y);
+
+/* ejercicio 45 */
+var a = 5;
+var b = 10;
+a += b;
+console.log(a);
+
+/* ejercicio 46 */
+var a = 3;
+var b = 7;
+a += b;
+console.log(a);
+
+/* ejercicio 47 */
+var a = 7;
+var b = 2;
+a -= b;
+console.log(a);
+
+/* ejercicio 48 */
+var a = 7;
+var b = 5;
+a *= b;
+console.log(a);
+
+/* ejercicio 49 */
+var a = 10;
+var b = 5;
+a /= b;
+console.log(a);
+
+/* ejercicio 50 */
+var a = 10;
+var b = 3;
+a %= b;
+console.log(a);
+
+/* ejercicio 51 */
+var a = 10;
+var b = 3;
+a **= b;
+console.log(a);
+
+/* ejercicio 52 */
+var num = 6;
+num++;
+console.log(num);
+
+/* ejercicio 53 */
+var num = 6;
+num--;
+console.log(num);
+
+/* ejercicio 54 */
+var num = 6;
+var resultado = ++num;
+console.log(resultado);
+
+/* ejercicio 55 */
+var num = 6;
+var resultado = --num;
+console.log(resultado);
+
+/* ejercicio 56 */
+var num = 5;
+var result = -num;
+console.log(result);
+
+console.log(suma.toString(suma));
