@@ -104,7 +104,15 @@ if (num >= 18) {
 }
 
 /* ejercicio 15 */
-var num = 5;
+var numRaiz = Math.sqrt(36);
+if (numRaiz === parseInt(numRaiz)){
+    var cuadradoPerfecto = cuadradoPerfecto + ((numRaiz + 1) * 2) -1;
+    console.log("este es un numero cuadrado perfecto");
+}else {
+    console.log("este no es un numero cuadrado perfecto");
+}
+
+/* ejercicio 16 */
 
 
 
