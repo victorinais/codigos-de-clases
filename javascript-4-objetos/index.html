@@ -16,15 +16,15 @@
                           <form action="">
                              <div class="mt-3">
                                  <label for="">Nombres</label>
-                                 <input type="text" id="nombres" class="form-control" required>
+                                 <input type="text" id="nombres" class="form-control">
                              </div>
                              <div class="mt-3">
                                 <label for="">Apellidos</label>
-                                <input type="text" id="apellidos" class="form-control" required>
+                                <input type="text" id="apellidos" class="form-control">
                             </div>
                             <div class="mt-3">
                                 <label for="">Correo</label>
-                                <input type="text" id="correo" class="form-control" required>
+                                <input type="text" id="correo" class="form-control">
                             </div>
                             <button type="button" onclick="guardarUsuario()" class="btn btn-primary w-100 mt-3">Guardar</button>
                           </form>
@@ -46,11 +46,23 @@
                                 </thead>
                                 <!-- AQUI va el nuevo contenido-->
                                 <tbody>
-                                    <tr>
-                                        <td id="resNombre"></td>
-                                        <td id="resApellido"></td>
-                                        <td id="resCorreo"></td>  
-                                    </tr>
+                                    <div>
+                                        <tr>
+                                            <td id="resNombre1"></td>
+                                            <td id="resApellido1"></td>
+                                            <td id="resCorreo1"></td>  
+                                        </tr>
+                                        <tr>
+                                            <td id="resNombre2"></td>
+                                            <td id="resApellido2"></td>
+                                            <td id="resCorreo2"></td>  
+                                        </tr>
+                                        <tr>
+                                            <td id="resNombre3"></td>
+                                            <td id="resApellido3"></td>
+                                            <td id="resCorreo3"></td>  
+                                        </tr>
+                                    </div>
                                 </tbody>
                             </table>
                         </div>
