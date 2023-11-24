@@ -47,4 +47,6 @@ function actaulizarARojo(){
     document.getElementById('cuadro').classList.add('cuadro-red');
     console.log("deberia el cuadro pasar a color rojo")
 }
-
+function actualizarColor(){
+    document.getElementById('cuadro').classList.toggle('cuadro-red','cuadro-green');
+}
