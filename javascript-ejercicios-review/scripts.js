@@ -146,5 +146,25 @@ var numero = 7;
 console.log(typeof(numero));
 
 /* ejercicio 39 */
-var bo = true;
-console.log(typeof(bo));
+var variable = true;
+console.log(typeof(variable));
+
+/* ejercicio 40 */
+var arreglo = ["a","b",2];
+console.log(arreglo.length);
+
+/* ejercicio 41 */
+var objeto = {
+    nombre : "cristiano",
+    apellido : "ronaldo",
+    edad : 38
+}
+console.log(objeto.nombre);
+
+/* ejercicio 42 */
+var nulo = null;
+console.log(typeof(nulo));
+
+/* ejercicio 43 */
+var decimal = 57.3;
+console.log(typeof(decimal));
