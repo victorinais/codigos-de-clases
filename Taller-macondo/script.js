@@ -92,7 +92,7 @@ console.log("La frase convertida es: " + fraseConvertida);
 /* caso 5 */
 
 // El dinero disponible
-let dineroDisponible = 250000;
+let dineroDisponible = 2500000;
 
 // Las opciones para el juego de papel, piedra o tijera
 let opciones = ["papel", "piedra", "tijera"];
@@ -115,7 +115,7 @@ if (eleccionHildebrando == eleccionTaxista) {
     console.log("Hildebrando gana. No tiene que pagar nada.");
 } else {
     console.log("El taxista gana. Hildebrando tiene que pagar 300.000 pesos.");
-    dineroDisponible -= 250000;
+    dineroDisponible -= 300000;
 }
 
 console.log("Dinero disponible: " + dineroDisponible + " pesos");
@@ -125,7 +125,7 @@ console.log("Dinero disponible: " + dineroDisponible + " pesos");
 // Variables iniciales
 let diasEnMacondo = 0;
 let vivo = true;
-let dinero = 250000;
+let dinero = 300000;
 
 // Actividades para cada día
 let actividades = {
@@ -181,4 +181,4 @@ for (let color in actividades) {
 
 console.log("Hildebrando estuvo " + diasEnMacondo + " días en Macondo.");
 console.log(vivo ? "Hildebrando pudo regresar." : "Hildebrando no pudo regresar.");
-console.log("Hildebrando gastó " + (250000 - dinero) + " pesos.");
+console.log("Hildebrando gastó " + (300000 - dinero) + " pesos.");
