@@ -1,3 +1,12 @@
+const mensaje = document.getElementById("boton");
+
+function mostrarMensaje(){
+    document.getElementById("mensaje").innerText = "Revisa la consola del navegador y encontrarás lo que buscas";
+}
+
+mensaje.addEventListener('click', mostrarMensaje);
+
+
 /* caso 1 */
 
 // Salario de Hildebrando
