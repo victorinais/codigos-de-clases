@@ -1,3 +1,43 @@
-body{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
     background: #000;
+    font-family: monospace;
+}
+h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 3rem;
+    text-align: center;
+    margin: 2em 0 1em 0;
+}
+.cont-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+.cont-btn label {
+    font-size: 2rem;
+    margin: 1em;
+    text-transform: capitalize;
+}
+.cont-btn button {
+    font-size: 2rem;
+    padding: 0.5em;
+    text-transform: capitalize;
+    border-radius: 0.8rem;
+    margin-bottom: 2em;
+}
+.cont-btn button:hover {
+    background: yellow;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px #fff;
+}
+.cont-btn p {
+    font-size: 2rem;
+    text-transform: capitalize;
 }
