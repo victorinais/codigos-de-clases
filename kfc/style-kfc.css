@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.theme-dark {
+    background-color: #000;
+    color: #c0c0c0;
+}
+
+.theme-light {
+    background-color: #fff;
+    color: #000;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.opciones ol {
+    display: flex;
+    list-style: none;
+    padding: 1.5em;
+}
+
+.opciones ol li {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    padding-left: 1.5em;
+}
+
+.seleccionar {
+    display: flex;
+    justify-content: center;
+}
+
+.select {
+    font-size: 1.5rem;
+    margin: 0.5em;
+    padding: 0.5em;
+    text-transform: capitalize;
+}
+
+.cont-titulo-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.menu {
+    text-align: start;
+    margin-left: 8em;
+    padding: 2em;
+    text-transform: capitalize;
+}
+
+.filtrar {
+    text-align: end;
+    margin-right: 15em;
+    padding-top: 3.5em;
+    text-transform: capitalize;
+    font-size: 0.7rem;
+}
+
+.cont-productos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5em;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+/* theme light */
+
+.theme-light .cajas {
+    background: #f2f2f2;
+    padding: 1.5em;
+}
+
+.theme-light .price {
+    color: #000;
+}
+
+.theme-light .name {
+    color: #000;
+}
+
+.theme-light .description {
+    color: #000;
+}
+
+.theme-light .cajas p {
+    padding: 0.5em 0;
+}
+
+.theme-light nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #f2f2f2;
+
+}
+
+/* theme dark */
+
+.theme-dark .cajas {
+    background: #333;
+    padding: 1.5em;
+}
+
+.theme-dark .price {
+    color: #c0c0c0;
+}
+
+.theme-dark .name {
+    color: #c0c0c0;
+}
+
+.theme-dark .description {
+    color: #c0c0c0;
+}
+
+.theme-dark .cajas p {
+    padding: 0.5em 0;
+}
+
+.theme-dark nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #000;
+}
