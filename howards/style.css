@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#section1 {
+    width: 100vw;
+    height: 100vh;
+}
+#section2 {
+    width: 100vw;
+    height: 100vh;
+}
+.portada {
+    background-image: url("https://assets.xboxservices.com/assets/13/cf/13cf037e-0e97-4812-90d9-b18791367f09.jpg?n=Hogwarts-Legacy_GLP-Page-Hero-1084_Redesign_1920x1080_01.jpg");
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    
+}
+.btn {
+    background-color: yellow;
+    padding: .4em;
+    font-family: 'Bigelow Rules', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 5rem;
+    margin: 40vh;
+    text-transform: uppercase;
+    border-radius: 25%;
+    border: 2px solid white;
+}
+.cont-inputs {
+    background-image: url("https://www.laxmasmusica.com/uploads/newsarticle/224dcd5a78654f798691b7c44ca7f19d/Harry_Potter_Return_to_Hogwarts_presenta_pr_XjQDKe5.jpg");
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ 
