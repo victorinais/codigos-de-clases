@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/favicon.webp" type="image/x-icon">
+    <title>InstaRiwi</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row bg-light rounded">
+            <div class="col text-center ">
+                <h2 class="display-2 titulo">InstaRiwi</h2>
+                <p class="lead">InstaRiwi te ayuda a ver tus imágenes con una interfaz acoplada a tu género.</p>
+                <div class="img">
+                    <img src="./images/Fondo-claro-logo.webp" alt="">
+                </div>
+            </div>
+            <div class="col">
+                <form>
+                    <fieldset>
+                        <legend>Iniciar Sesión</legend>
+                        <div class="mb-3">
+                            <label for="Nombre" class="form-label">Nombre</label>
+                            <input type="text" id="Nombre" class="form-control" placeholder="Ingrese su nombre">
+                        </div>
+                        <div class="mb-3">
+                            <label for="Correo" class="form-label">Correo electrónico</label>
+                            <input type="text" id="Correo" class="form-control"
+                                placeholder="Ingrese su Correo electrónico">
+                        </div>
+                        <div class="mb-3">
+                            <label for="Genero" class="form-label">Género</label>
+                            <select id="Genero" class="form-select">
+                                <option value="M">Masculino</option>
+                                <option value="F">femenino</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="Contraseña" class="form-label">Contraseña</label>
+                            <input type="text" id="Contraseña" class="form-control" placeholder="Ingrese su Contraseña">
+                        </div>
+                        <div class="mb-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck">
+                                <label class="form-check-label" for="disabledFieldsetCheck">Soy mayor de edad</label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-success" id="btn">Entrar</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
