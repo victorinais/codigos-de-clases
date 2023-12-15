@@ -1,6 +1,7 @@
 let boton = document.getElementById("btn");
 boton.addEventListener("click",mostrarDatos);
 
+
 function mostrarDatos(){
     let nombre = document.getElementById("nombre").value;
     let edad = document.getElementById("edad").value;
@@ -17,5 +18,20 @@ function mostrarDatos(){
     }else if(cualidades == "opcion-4"){
         cualidades = document.getElementById("opcion-4").innerHTML;
     }
+
+    cualidades = cualidades.split(",");
+
     console.log(nombre,edad,familia,linaje,cualidades);
+    let estudiante = {
+        nombre: nombre,
+        edad:edad,
+        familia: familia,
+        linaje: linaje,
+        cualidades: cualidades
+    }
+    return estudiante
 }
+
+
+
+console.log(mostrarDatos());

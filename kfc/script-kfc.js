@@ -2,9 +2,11 @@ function selectTheme() {
     let theme = document.getElementById('select_theme').value;
 
     if (theme == 'dark') {
+        localStorage.setItem("dark");
         document.getElementById('body').classList.remove('theme-light');
         document.getElementById('body').classList.add('theme-dark');
     } else {
+        localStorage.setItem("light");
         document.getElementById('body').classList.remove('theme-dark');
         document.getElementById('body').classList.add('theme-light');
     }

@@ -12,6 +12,10 @@
     width: 100vw;
     height: 100vh;
 }
+#section3 {
+    width: 100vw;
+    height: 100vh;
+}
 .portada {
     background-image: url("https://assets.xboxservices.com/assets/13/cf/13cf037e-0e97-4812-90d9-b18791367f09.jpg?n=Hogwarts-Legacy_GLP-Page-Hero-1084_Redesign_1920x1080_01.jpg");
     width: 100vw;
@@ -69,15 +73,26 @@
 }
 .btn-1 {
     background-color: yellow;
-    padding: .1em;
+    padding: .3em .7em;
     font-size: 2.5rem;
     font-weight: bold;
     font-family: 'Bigelow Rules', 'Arial Narrow', Arial, sans-serif;
-    width: 30%;
+    width: 100%;
     margin-top: 0.7em;
     border-radius: 5%;
     text-transform: uppercase;
 }
+.section3 {
+    background-image: url("https://static.wikia.nocookie.net/esharrypotter/images/6/6f/PotionsClass.JPG/revision/latest?cb=20131206183318");
+    width: 100vw;
+    height: 100vh;
 
+}
+.section4 {
+    background-image: url("https://www.mexicoescultura.com/galerias/actividades/principal/harry_1_b.jpg");
+    width: 100vw;
+    height: 100vh;
+    object-fit: fill;
+}
 
  
