@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #333333;
+}
+.container {
+    background-color: antiquewhite;
+    margin-top: 4em;
+    padding: 0.5em;
+}
+#nombre {
+    color: #000;
+}
