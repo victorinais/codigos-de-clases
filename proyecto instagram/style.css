@@ -20,3 +20,14 @@ body{
     width: 30%;
     margin-top: 3em;
 }
+
+/* masculino */
+.Masculino body {
+    background-color: black;
+}
+
+
+/* femenino */
+.Femenino body {
+    background-color: pink;
+}
