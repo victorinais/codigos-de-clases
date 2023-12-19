@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-body{
+html{
     background-color: teal;
 }
 .container{
@@ -22,12 +22,20 @@ body{
 }
 
 /* masculino */
+
 .Masculino body {
+    background-color: black;
+}
+.Masculino .container {
     background-color: black;
 }
 
 
 /* femenino */
+
 .Femenino body {
+    background-color: pink;
+}
+.Femenino .container {
     background-color: pink;
 }

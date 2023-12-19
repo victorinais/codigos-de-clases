@@ -62,14 +62,13 @@ function iniciarSesion() {
 
     let nombre = document.getElementById("Nombre").value;
     let correo = document.getElementById("Correo").value;
-    let genero = document.getElementById("Genero").value;
     let password = document.getElementById("Contraseña").value;
-
 
 
     persons.forEach(function (person) {
         if (correo == person.correo && password == person.password) {
             sessionStorage.setItem("nombre", person.nombre);
+            sessionStorage.setItem("genero", person.genero);
             sessionStorage.setItem("auth", 1);
             location.href = "home.html";
         }
