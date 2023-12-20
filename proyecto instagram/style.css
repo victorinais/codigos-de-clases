@@ -1,8 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-html{
+body{
     background-color: teal;
 }
 .container{
@@ -23,19 +24,29 @@ html{
 
 /* masculino */
 
-.Masculino body {
-    background-color: black;
+.Masculino {
+    background-color: black ;
 }
-.Masculino .container {
-    background-color: black;
+.Masculino .h2 {
+    color: #fff;
+    padding-bottom: 1em;
 }
+
+/* .Masculino .container-fluid {
+    background-color: black;
+} */
 
 
 /* femenino */
 
-.Femenino body {
+.Femenino {
     background-color: pink;
 }
-.Femenino .container {
+.Femenino .h2 {
+    color: #000;
+    padding-bottom: 1em;
+}
+/* .Femenino .container-fluid {
     background-color: pink;
 }
+ */
